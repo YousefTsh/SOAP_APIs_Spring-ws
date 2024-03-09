@@ -24,13 +24,13 @@ To get started with this project, you will need to have the following installed 
 * Maven 3+
 
 
-<!-- To build and run the project, follow these steps:
+ To build and run the project, follow these steps:
 
 * Clone the repository: `git clone https://github.com/YousefTsh/SpringBoot_JWT.git`
 * Navigate to the project directory: cd SpringBoot_JWT
 * Run Docker Compose File to Create PostgreSQL Container
-* Add database "jwt_security" to postgres 
+* Add database "spring_soap" to postgres 
 * Build the project: mvn clean install
 * Run the project: mvn spring-boot:run 
 
--> The application will be available at http://localhost:8081. -->
+-> The application will be available at http://localhost:2026. 
