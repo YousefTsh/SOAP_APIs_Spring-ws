@@ -1,0 +1,22 @@
+services:
+  db:
+    container_name: security # any name you want
+    image: postgres #must be one of docker images
+    environment:
+      POSTGRES_USER: yousef #define user for postgresql database to be log in by it
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    volumes:
+      - db:/data/postgres
+    ports:
+      - "5333:5432" #each container must have a  different post
+    networks:
+      - db
+    restart: unless-stopped
+
+networks:
+  db:
+    driver: bridge
+
+volumes:
+  db:
