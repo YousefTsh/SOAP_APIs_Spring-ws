@@ -26,8 +26,8 @@ To get started with this project, you will need to have the following installed 
 
  To build and run the project, follow these steps:
 
-* Clone the repository: `git clone https://github.com/YousefTsh/SpringBoot_JWT.git`
-* Navigate to the project directory: cd SpringBoot_JWT
+* Clone the repository: `git clone https://github.com/YousefTsh/SOAP_APIs_Spring-ws.git`
+* Navigate to the project directory: cd SOAP_APIs_Spring-ws
 * Run Docker Compose File to Create PostgreSQL Container
 * Add database "spring_soap" to postgres 
 * Build the project: mvn clean install
